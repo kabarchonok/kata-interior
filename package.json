@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest public_html",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "generate": "vue-cli-service build --target wc-async --name interior 'src/components/*.vue'"
   },
