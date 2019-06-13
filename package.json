@@ -1,0 +1,56 @@
+{
+  "name": "kata-interior",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --dest public_html",
+    "lint": "vue-cli-service lint",
+    "generate": "vue-cli-service build --target wc-async --name interior 'src/components/*.vue'"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.22",
+    "vue-draggable-resizable": "^1.7.5",
+    "vue-i18n": "^8.11.2",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^3.0.1",
+    "vue-slider-component": "^2.8.6",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
