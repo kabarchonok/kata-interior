@@ -1,5 +1,7 @@
 # kata-interior
 
+![Preview](preview.png)
+
 ## [DEMO](https://vanya.xyz/kata-interior/)
 
 ## Project setup
