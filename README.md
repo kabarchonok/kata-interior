@@ -1,6 +1,6 @@
 # kata-interior
 
-## [DEMO](http://84.201.149.4/kata-interior/)
+## [DEMO](https://vanya.xyz/kata-interior/)
 
 ## Project setup
 ```
