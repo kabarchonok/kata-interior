@@ -2,7 +2,7 @@
 
 ![Preview](preview.png)
 
-## [DEMO](https://vanya.xyz/kata-interior/)
+## [DEMO](http://try.kata.typchik.com/?id=1&lang=ru)
 
 ## Project setup
 ```
